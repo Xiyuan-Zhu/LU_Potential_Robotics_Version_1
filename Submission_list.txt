@@ -1,0 +1,9 @@
+SUBMISSION LIST
+- A pure_pursuit code for Benchmark 1: Benchmark 1 is a single agent time trial without obstacle on the track.
+The objective is to achieve lower lap times.
+- A .csv file to accompany the pure_prsuit code for Benchmark 1
+
+- A modified pure_pursuit code/version for Benchmark 2: Benchmark 2 is a single agent task with unknown obstacles in the map before hand. 
+The objective is to finish laps without crashing.
+- A .csv file to accompany the modified pure_pursuit code for Benchmark 2. This probably going to have a constant speed since its not a
+time trial
