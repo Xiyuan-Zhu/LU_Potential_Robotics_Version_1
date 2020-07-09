@@ -1,9 +1,14 @@
 LU_Potential_Robotics
-This README is designed in a way that assumes f1tenth_gym_ros has been git cloned onto the host's computer
+This README is designed in a way that assumes the latest version of f1tenth_gym_ros has been git cloned onto the host's computer
 
-1. Git clone the following programs and .csv files from https://github.com/Lu-Potential/LU_Potential_Robotics.git 
+1. Git clone the following .py, .launch, and .csv files from https://github.com/Lu-Potential/LU_Potential_Robotics.git 
 into the subfolder /src/f1tenth_gym_ros-master/scripts of your catkin workspace.
-The summary of commands are listed here:
-    i) Your-catkin_ws/src/f1tenth_gym_ros-master/scripts$ git clone https://github.com/Lu-Potential/LU_Potential_Robotics.git
 
-2.
+2. Create a path in the Home folder called "~/rcws/logs/" or path name of your choice 
+(This direction was taken from the readme.md file in the particle_filter package)
+and copy the .csv file into the 'logs' folder.
+
+3. Start a docker container
+
+4. In a different terminal, catkin_make, source devel/setup.bash, and run:
+    $roslaunch f1tenth_gym_ros 'something'.launch
