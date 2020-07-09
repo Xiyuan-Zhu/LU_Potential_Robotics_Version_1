@@ -6,4 +6,4 @@ The objective is to achieve lower lap times.
 Benchmark 2 is a single agent task with unknown obstacles in the map before hand. 
 The objective is to finish laps without crashing.
 
-- A .csv file to accompany the modified pure_pursuit code for Benchmark 2.
+- A .csv file to accompany the modified pure_pursuit code for Benchmark 1&2.
