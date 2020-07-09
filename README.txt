@@ -8,7 +8,7 @@ into the subfolder /src/f1tenth_gym_ros-master/scripts of your catkin workspace.
 
 3. Create a path in the Home folder called "~/rcws/logs/" or path name of your choice 
 (This direction was taken from the readme.md file in the particle_filter package)
-and copy the .csv file into the 'logs' folder.
+and move the .csv file into the 'logs' folder.
 
 4. Start a docker container
 
