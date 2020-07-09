@@ -1,5 +1,5 @@
 LU_Potential_Robotics
-This README is designed in a way that assumes the latest version of f1tenth_gym_ros has been git cloned onto the host's computer
+This README is designed in a way that assumes that the host has installed Docker and has the latest version of f1tenth_gym_ros
 
 1. Git clone the following .py, .launch, and .csv files from https://github.com/Lu-Potential/LU_Potential_Robotics.git 
 into the subfolder /src/f1tenth_gym_ros-master/scripts of your catkin workspace.
